@@ -1,17 +1,5 @@
 # antra-trecia-dalis
 
-#pragma once
-#ifndef DUOMENYS_H_INCLUDED
-#define DUOMENYS_H_INCLUDED
-
-#include "funkcijos.h"
-
-struct duomenys
-{
-    string Vardai;
-    string Pavardes;
-    vector<string> Pazymiai;
-};
 
 #endif
 
@@ -66,54 +54,10 @@ void spausdinimas(vector<string> Vardai, vector<string> Pavardes, vector<double>
     }
     
     
-#pragma once
-#ifndef FUNKCIJOS_H_INCLUDED
-#define FUNKCIJOS_H_INCLUDED
-
-
-using namespace std;
-
-#include <string>
-#include <iostream>
-#include <vector>
-#include <numeric>
-#include <iomanip>
-#include <cstdlib>
-#include <iostream>
-#include <cstdio>
-#include <sstream>
     
     
-#pragma once
-#ifndef RUSIAVIMAS_H_INCLUDED
-#define RUSIAVIMAS_H_INCLUDED
 
-#include "funkcijos.h"
 
-struct rusiavimas
-{
-    string Vardai;
-    string Pavardes;
-    double Vidurkiai;
-    double Medianos;
-};
-
-#endif
-
-#pragma once
-#ifndef STUDENTAS_H_INCLUDED
-#define STUDENTAS_H_INCLUDED
-
-#include "funkcijos.h"
-
-struct studentas
-{
-    string Vardai;
-    string Pavardes;
-    vector<int> Pazymiai;
-};
-
-#endif
 
 
 
