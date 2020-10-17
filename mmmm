@@ -1,0 +1,16 @@
+#endif
+
+#pragma once
+#ifndef STUDENTAS_H_INCLUDED
+#define STUDENTAS_H_INCLUDED
+
+#include "funkcijos.h"
+
+struct studentas
+{
+    string Vardai;
+    string Pavardes;
+    vector<int> Pazymiai;
+};
+
+#endif
