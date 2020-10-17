@@ -1,0 +1,13 @@
+#pragma once
+#ifndef RUSIAVIMAS_H_INCLUDED
+#define RUSIAVIMAS_H_INCLUDED
+
+#include "funkcijos.h"
+
+struct rusiavimas
+{
+    string Vardai;
+    string Pavardes;
+    double Vidurkiai;
+    double Medianos;
+};
